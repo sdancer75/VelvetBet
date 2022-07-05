@@ -19,8 +19,8 @@ You can read more at https://en.wikipedia.org/wiki/YUI_Library
 ![Betting](images/VelvetBet_Bet.jpg)
 ![Betting Success](images/VelvetBet_Bet_Success.jpg)
 ![Bets List](images/VelvetBet_BetList.jpg)
-![Tables](images/VelvetBet_Tables.jpg)
-![Stored Procedure](images/VelvetBet_StoredProcedure.jpg)
+![Tables](images/mySQL_VelvetBet_Tables.jpg)
+![Stored Procedure](images/mySQL_VelvetBet_StoredProcedure.jpg)
 
 
 #Installation
