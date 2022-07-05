@@ -23,7 +23,7 @@ You can read more at https://en.wikipedia.org/wiki/YUI_Library
 ![Stored Procedure](images/mySQL_VelvetBet_StoredProcedure.jpg)
 
 
-#Installation
+# Installation
 
 1) Import the Install/mySQL_Tables_SampleData.sql using phpmyadmin
 2) Import the Stored Procedure Install/sp_UpdateBets (Stored Procedure).sql
