@@ -1,0 +1,1584 @@
+@media screen {
+
+
+/* LINE 390 tcompany.php */
+
+*
+{
+padding: 0px;
+margin: 0px;
+}
+
+h1
+{
+ font: bolder 16px  'Tahoma', Arial, sans-serif;
+ color : white;
+}
+
+h2
+{
+ font: bolder 14px  'Tahoma', Arial, sans-serif;
+ color : white;
+}
+
+h3
+{
+ font: bolder 11px  'Tahoma', Arial, sans-serif;
+ color : white;
+}
+
+
+body
+{
+ background: #161616;
+ height: 100%;
+}
+
+#wrap
+{
+position: relative;
+width: 1000px;
+margin: 0 auto;
+/*height: 100%; *//* works only if parent container is assigned a height value */ 
+/*top: 30px;*/
+height: 951px;
+
+border-style: solid;
+border-width : 1px;
+border-color: black;
+background: black;
+}
+
+#header
+{
+ position: relative;
+ width: 1000px;
+ height: 103px;
+ background: url('loginpics/header.jpg');
+}
+
+/* ************************************************************ */
+#topmenu
+{
+ float: left;
+ position: relative;
+ top : 36px;
+ left : 520px;
+ width: 454px;
+ height: 20px;
+}
+
+#topmenu  ul
+{
+ width: 454px;
+ display: inline;
+ float: left;	
+}
+
+#topmenu ul li
+{
+ font: bolder 12px  'Tahoma', Arial, sans-serif;
+ position: relative;
+ display: inline;
+ float: left;
+}
+
+#topmenu ul li a
+{
+ display: block;
+ color: black;
+ padding: 3px 15px;
+ border-right: 1px solid #000;
+ text-decoration: none;
+}
+
+#topmenu  ul li a:hover{
+background: black; 
+color: white;
+}
+/* ************************************************************ */
+
+/* ************************************************************ */
+#bottommenu
+{
+ float: left;
+ position: relative;
+ top : 76px;
+ /*left : 202px;*/
+ left : 66px;
+ width: 440px;
+ height: 21px;
+}
+
+#bottommenu  ul
+{
+ width: 440px;
+ display: inline;
+ float: left;	
+} 
+
+#bottommenu ul li
+{
+ font: bolder 12px  'Tahoma', Arial, sans-serif;
+ position: relative;
+ display: inline;
+ float: left;
+}
+
+#bottommenu ul li a
+{
+ display: block;
+ color: black;
+ padding-left: 15px;
+ padding-right: 15px;
+ padding-top: 4px;
+ padding-bottom: 3px;
+ border-right: 1px solid #000;
+ text-decoration: none;
+}
+
+#bottommenu  ul li a:hover{
+background: black; 
+color: white;
+}
+/* ************************************************************ */
+/* ************************************************************ */
+/* ************************************************************ */
+#bar
+{
+ position: relative;
+ float:left;
+ background: black;
+ width: 1000px;
+ height: 40px;
+}
+
+#loginbar
+{
+ position: relative;
+ float:left;
+ background: url('loginpics/loginbar.jpg');
+ width: 1000px;
+ top : 6px;
+ height: 28px;
+}
+
+#logintable
+{
+ position: relative;
+ float:left;
+ width: 600px;
+ top : 0px;
+ left: 40px;
+ top: 2px;
+ height: 24px;
+}
+
+#flags
+{
+ position: relative;
+ float:left;
+ width: 150px;
+ left: 200px;
+ top: 2px;
+ height: 24px;
+}
+
+
+/* ************************************************************ */
+
+#sports
+{
+ position: relative;
+ float:left;
+ background: url('loginpics/sports.jpg');
+ width: 1000px;
+ height: 240px;
+ font: bolder 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+}
+
+#sporttxt1
+{
+ position:relative; 
+ float: left;
+ left:35px; 
+ top:202px;
+ /*width:180px;*/
+ /*background: black;*/
+ font: bolder 22px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: left;
+}
+
+#sporttxt2
+{
+ position:relative; 
+ float: left;
+ left:30px; 
+ top:202px;
+ width:600px;
+ /*background: black;*/
+ font: 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: left;
+}
+
+/* ************************************************************ */
+#content
+{
+position: relative;
+float:left;
+background: #161616;
+width: 1000px;
+height: 420px;
+}
+
+#contentleft
+{
+position: relative;
+float:left;
+width: 615px;
+height: 420px;
+}
+
+#casino
+{
+ position: relative;
+ float:left;
+ background: url('loginpics/tennis.jpg');
+ width: 615px;
+ height: 195px;
+}
+
+#casinotxt1
+{
+ position: relative; 
+ float: left;
+ left: 35px; 
+ top: 155px;
+ /*width: 120px;*/
+ font: bolder 22px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: right;
+}
+
+#casinotxt2
+{
+ position: relative; 
+ float: left;
+ left:30px; 
+ top: 155px;
+ width: 350px;
+ font: 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: left;
+}
+
+#livebet
+{
+position: relative;
+float:left;
+background: url('loginpics/live.jpg');
+width: 615px;
+height: 225px;
+}
+
+#livetxt1
+{
+ position:relative; 
+ float: left;
+ left:35px; 
+ top:182px;
+ /*width:210px;*/
+ /*background: black;*/
+ font: bolder 22px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: right;
+}
+
+#livetxt2
+{
+ position: relative; 
+ float: left;
+ left:30px; 
+ top: 182px;
+ width: 350px;
+ /*background: black;*/
+ font: 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: left;
+}
+
+#contentright
+{
+ position: relative;
+ float:right;
+ width: 385px;
+ height: 420px;
+}
+
+#barvideo
+{
+ position: relative;
+ float:right;
+ background: url('loginpics/bar.jpg');
+ width: 385px;
+ height: 30px;
+}
+
+#videoframe
+{
+ position: relative;
+ float:right;
+ background: black;
+ width: 385px;
+ height: 265px;
+}
+
+#video
+{
+ position: relative;
+ float:left;
+ background: black;
+ /*
+ width: 341px;
+ height: 265px;
+ */
+ left:6px;
+}
+
+#viking
+{
+position: relative;
+float:right;
+background: url('loginpics/coupon.jpg');
+width: 385px;
+height: 125px;
+}
+
+#vikingtxt1
+{
+ position:relative; 
+ float: left;
+ left:10px; 
+ top:85px;
+ /*width:130px;*/
+ /*background: black;*/
+ font: bolder 22px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: right;
+}
+
+#vikingtxt2
+{
+ position: relative; 
+ float: left;
+ left:10px; 
+ top: 85px;
+ width: 210px;
+ /*background: black;*/
+ font: 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: left;
+}
+/* ************************************************************ */
+
+#footer  
+{
+ position: relative;
+ float:left;
+ background: url('loginpics/footer.jpg');
+ width: 1000px;
+ height: 148px;
+ font: bolder 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+}
+
+#footertext
+{
+ position: relative;
+ float:left;
+ width: 1000px;
+ height: 24px;
+ font: bolder 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+ top: 75px;
+}
+
+
+/* ************************************************************ */
+/* ************************************************************ */
+
+#wrap2
+{
+/*position: relative;*/
+width: 1000px;
+margin: 0 auto;
+/*height: 800px;*/
+
+border-style: solid;
+border-width : 1px;
+border-color: black;
+background: black;
+background-color:#000;
+}
+
+#rules
+{
+ position: relative;
+ /*float:left;*/
+ background: black;
+ width: 936px;
+ /*left: 32px;*/
+ /*height: auto;*/
+ font: 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: justify;
+}
+
+#footertext2
+{
+ /*position: relative;*/
+ /*float:left;*/
+ width: 1000px;
+ /*height: 24px;*/
+ font: 12px 'Tahoma', Geneva, sans-serif;
+ /*font: bolder 12px  'Tahoma', Arial, sans-serif;*/
+ color : white;
+ top: 0px;
+ /*padding-top:30px;*/
+ margin-top:30px;
+ font-weight:bold;
+}
+
+
+/* ************************************************************ */
+/* ************************************************************ */
+
+#wrap3
+{
+/*position: relative;*/
+width: 1000px;
+margin: 0 auto;
+/*height: 6330px;*/
+border-style: solid;
+border-width : 1px;
+border-color: black;
+background: black;
+background-color:#000;
+}
+
+#wrap3a
+{
+position: relative;
+width: 700px;
+margin: 0 auto;
+
+border-style: solid;
+border-width : 1px;
+border-color: black;
+background: black;
+}
+
+#rules2
+{
+ position: relative;
+ /*float:left;*/
+ background: black;
+ width: 936px;
+ /*left: 32px;*/
+ /*height: auto;*/
+ font: 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: justify;
+}
+
+/* ************************************************************ */
+/* ************************************************************ */
+
+#loginerror
+{
+ position: relative;
+ /*float:left;*/
+ background: url('loginpics/error.jpg');
+ width: 600px;
+ /*top : 130px;*/
+ left: 170px;
+ height: 220px;
+}
+
+/* ************************************************************ */
+/* ************************************************************ */
+
+#regtable
+{
+ position: relative;
+ /*float:left;*/
+ background: black;
+ width:700px;
+ top : 30px;
+ left: 118px;
+ /*height: 550px;*/
+}
+
+
+/* ************************************************************ */
+/* ************************************************************ */
+
+#contact
+{
+ position: relative;
+ /*float:left;*/
+ background: black;
+ width:500px;
+ top : 30px;
+ left: 218px;
+ /*height: 550px;*/
+ color :white;
+}
+
+#leftcontact
+{
+ position: relative;
+ float:left;
+ background: url('loginpics/left_contact.jpg');
+ width: 300px;
+ height: 250px;
+ left : 0px;
+ top: 0px;
+}
+
+#rightcontact
+{
+ position: relative;
+ float:right;
+ background: url('loginpics/right_contact.jpg');
+ width: 300px;
+ height: 250px;
+ right:0px;
+ top: 0px;
+}
+
+
+/* ************************************************************ */
+/* ************************************************************ */
+
+#leftresult
+{
+ position: absolute;
+ /*float:left;*/
+ background: black;
+ width: 300px;
+ height: 550px;
+ left : 0px;
+ top: 30px;
+}
+
+#leftpic
+{
+ position: relative;
+ float:left;
+ background: url('loginpics/left.jpg');
+ width: 300px;
+ height: 250px;
+ left : 0px;
+ top: 0px;
+}
+
+#resultstable
+{
+ position: absolute;
+ /*float:left;*/
+ background: black;
+ width:300px;
+ top : 30px;
+ left: 315px;
+ height: 550px;
+ font: 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: right;
+}
+
+#rightresult
+{
+ position: absolute;
+ /*float:right;*/
+ background: black;
+ width: 300px;
+ height: 550px;
+ top :30px;
+ left:630px;
+ /*right:5px;*/
+}
+
+
+#rightpic
+{
+ position: relative;
+ float:right;
+ background: url('loginpics/right.jpg');
+ width: 300px;
+ height: 250px;
+ right:0px;
+ top: 0px;
+}
+
+
+/* ************************************************************ */
+/* ************************************************************ */
+
+#wrap4
+{
+ position: relative;
+ width: 1000px;
+ margin: 0 auto;
+ border-style: solid;
+ border-width : 1px;
+ border-color: black;
+ background: black;
+}
+
+
+#rules4
+{
+ position: relative;
+ float:left;
+ background: black;
+ border : 1px solid black; 
+ width: 1000px;
+ /*height: auto;*/
+ left: 0px;
+ top: 0px;
+ font: 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: justify;
+}
+
+
+#resultstable3
+{
+ position: relative;
+ float:left;
+ height : inherit;
+ width:230px;
+ top : 30px;
+ left: 32px;
+ font: 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align:left;
+}
+
+#resultstable4
+{
+ position: relative;
+/* 
+ float:right;
+ right :120px;
+*/
+ height : inherit;
+ float:left;
+ left : 20px; 
+ background: black;
+ width:600px;
+ top : 0px;
+ font: 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+}
+
+#rules5
+{
+ position: relative;
+ float:left;
+ background: black;
+ border : 1px solid black; 
+ width: 600px;
+ /*height: auto;*/
+ left: 0px;
+ top: 0px;
+ font: 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: justify;
+}
+
+#wrap5
+{
+ position: relative;
+ width: 600px;
+ margin: 0 auto;
+ border-style: solid;
+ border-width : 1px;
+ border-color: black;
+ background: black;
+}
+
+#contact5
+{
+ position: relative;
+ float:left;
+ background: black;
+ width:500px;
+ top : 30px;
+ left: 50px;
+ height: 550px;
+ color :white;
+}
+
+#resultstable5
+{
+ position: relative;
+ float:left;
+ background: black;
+ width:500px;
+ top : 30px;
+ left: 50px;
+ height: 550px;
+ font: 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: right;
+}
+
+td.column10	        {BACKGROUND-COLOR: #E1E1E1; text-align: center}
+td.deltgrright	{BACKGROUND-COLOR: #d2d2d2; text-align: right; font: 12px Tahoma, Arial; COLOR: #000000; }
+td.deltgrleft	{BACKGROUND-COLOR: #d2d2d2; text-align: left; font: 12px Tahoma, Arial; COLOR: #000000; }
+td.deltgrcenter	{BACKGROUND-COLOR: #d2d2d2; text-align: center; font: 12px Tahoma, Arial; COLOR: #000000; }
+td.deltgr2center {BACKGROUND-COLOR: #FF7800; text-align: center; font: 12px Tahoma, Arial; COLOR: #000000; }
+table.mytable10     {border-collapse:collapse; margin:0; padding:0; border:0; margin-bottom:3;}
+table.mytable10 td {font-size:11px; font-family:Arial; border:1px solid #FFF; padding:2 0 2 0; }
+table.mytable10 td img {border:0}
+td.deltorcenter	{BACKGROUND-COLOR: #FF7800; text-align: center; font-family:Arial; COLOR: #FFFFFF; FONT-WEIGHT: bold;}
+td.deldb1	{BACKGROUND-COLOR: #404040; text-align: center; font-family:Arial; COLOR: #FFFFFF; }
+td.deldb2	{BACKGROUND-COLOR: #A5A5A5; text-align: center;}
+
+
+
+table.list	{border-collapse:collapse; margin:0; padding:0; border:0; margin-bottom:3}
+table.list	td {font-size:11px; font-family:Arial; border:1px solid #FFFFFF; padding:2 0 2 0; }
+table.list 	td img {border:0}
+
+td.gr4c		     {BACKGROUND-COLOR: #FFA60C; text-align: center; COLOR: #000000; FONT-WEIGHT: bold;}
+td.gr1c		     {BACKGROUND-COLOR: #000000; text-align: center; COLOR: #FFA60C;}
+td.gr3c		     {BACKGROUND-COLOR: #000000; text-align: center; COLOR: #FFA60C;}
+td.yec		     {BACKGROUND-COLOR: #000000; text-align: center; COLOR: #FFA60C;}
+td.chance	     {BACKGROUND-COLOR: #000000; text-align: center; COLOR: #FFA60C;}
+td.pointBLACK    {BACKGROUND-COLOR: #A5A5A5; text-align: center; color: #000000; font-weight: bold;}
+td.pointRED	     {BACKGROUND-COLOR: #A5A5A5; text-align: center; color: #FF0000; font-weight: bold;}
+td.teams		     {BACKGROUND-COLOR: #000000; text-align: center; COLOR: #FFFFFF; font-weight: bold; }
+td.teams2             {BACKGROUND-COLOR: #404040; text-align: center; color: #FFFFFF;}
+
+td.gametype1	     {BACKGROUND-COLOR: #404040; text-align: center; color: #FF0000;}
+td.gametype2	     {BACKGROUND-COLOR: #404040; text-align: center; color: #FDCB00;}
+td.gametype3	     {BACKGROUND-COLOR: #404040; text-align: center; color: #3AFF28;}
+td.gametype4	     {BACKGROUND-COLOR: #404040; text-align: center; color: #FF00CC;}
+td.gametype5	     {BACKGROUND-COLOR: #404040; text-align: center; color: #0066FF;}
+
+td.gametype1a     {BACKGROUND-COLOR: #A5A5A5; text-align: center; color: #E00000;}
+td.gametype2a     {BACKGROUND-COLOR: #A5A5A5; text-align: center; color: #FDCB00;}
+td.gametype3a     {BACKGROUND-COLOR: #A5A5A5; text-align: center; color: #007F0E;}
+td.gametype4a     {BACKGROUND-COLOR: #A5A5A5; text-align: center; color: #FF00CC;}
+td.gametype5a     {BACKGROUND-COLOR: #A5A5A5; text-align: center; color: #0066FF;}
+
+td.maintype  {BACKGROUND-COLOR: #A5A5A5; text-align: center; COLOR: black; FONT-WEIGHT: bold}
+td.maincateg{BACKGROUND-COLOR: #404040; text-align: center; COLOR: white; FONT-WEIGHT: bold}
+
+
+td.tt1cBLACK	     {BACKGROUND-COLOR: #A5A5A5; text-align: center; color: #000000; }
+td.tt1cRED	     {BACKGROUND-COLOR: #A5A5A5; text-align: center; color: #FF0000; }
+td.dd2cBLACK     {BACKGROUND-COLOR: #404040; text-align: center; color:#FFFFFF;}
+td.dd2cRED	    {BACKGROUND-COLOR: #404040; text-align: center; color:#FF0000;}
+td.tt1c		    {BACKGROUND-COLOR: #A5A5A5; text-align: center; FONT-WEIGHT: bold;}
+td.dd1c		    {BACKGROUND-COLOR: #404040; text-align: center; color: #FFFFFF;  FONT-WEIGHT: bold;}
+
+}
+
+
+/*  --------------------------------------------------------------------------------------------------------------------    */
+
+@media print {
+
+
+/* LINE 390 tcompany.php */
+
+*
+{
+padding: 0px;
+margin: 0px;
+}
+
+h1
+{
+ font: bolder 16px  'Tahoma', Arial, sans-serif;
+ color : white;
+}
+
+h2
+{
+ font: bolder 14px  'Tahoma', Arial, sans-serif;
+ color : white;
+}
+
+h3
+{
+ font: bolder 11px  'Tahoma', Arial, sans-serif;
+ color : white;
+}
+
+
+body
+{
+ background: #161616;
+ height: 100%;
+}
+
+#wrap
+{
+position: relative;
+width: 1000px;
+margin: 0 auto;
+/*height: 100%; *//* works only if parent container is assigned a height value */ 
+/*top: 30px;*/
+height: 951px;
+
+border-style: solid;
+border-width : 1px;
+border-color: black;
+background: black;
+}
+
+#header
+{
+ position: relative;
+ width: 1000px;
+ height: 103px;
+ background: url('loginpics/header.jpg');
+}
+
+/* ************************************************************ */
+#topmenu
+{
+ float: left;
+ position: relative;
+ top : 36px;
+ left : 520px;
+ width: 454px;
+ height: 20px;
+}
+
+#topmenu  ul
+{
+ width: 454px;
+ display: inline;
+ float: left;	
+}
+
+#topmenu ul li
+{
+ font: bolder 12px  'Tahoma', Arial, sans-serif;
+ position: relative;
+ display: inline;
+ float: left;
+}
+
+#topmenu ul li a
+{
+ display: block;
+ color: black;
+ padding: 3px 15px;
+ border-right: 1px solid #000;
+ text-decoration: none;
+}
+
+#topmenu  ul li a:hover{
+background: black; 
+color: white;
+}
+/* ************************************************************ */
+
+/* ************************************************************ */
+#bottommenu
+{
+ float: left;
+ position: relative;
+ top : 76px;
+ /*left : 202px;*/
+ left : 66px;
+ width: 440px;
+ height: 21px;
+}
+
+#bottommenu  ul
+{
+ width: 440px;
+ display: inline;
+ float: left;	
+} 
+
+#bottommenu ul li
+{
+ font: bolder 12px  'Tahoma', Arial, sans-serif;
+ position: relative;
+ display: inline;
+ float: left;
+}
+
+#bottommenu ul li a
+{
+ display: block;
+ color: black;
+ padding-left: 15px;
+ padding-right: 15px;
+ padding-top: 4px;
+ padding-bottom: 3px;
+ border-right: 1px solid #000;
+ text-decoration: none;
+}
+
+#bottommenu  ul li a:hover{
+background: black; 
+color: white;
+}
+/* ************************************************************ */
+/* ************************************************************ */
+/* ************************************************************ */
+#bar
+{
+ position: relative;
+ float:left;
+ background: black;
+ width: 1000px;
+ height: 40px;
+}
+
+#loginbar
+{
+ position: relative;
+ float:left;
+ background: url('loginpics/loginbar.jpg');
+ width: 1000px;
+ top : 6px;
+ height: 28px;
+}
+
+#logintable
+{
+ position: relative;
+ float:left;
+ width: 600px;
+ top : 0px;
+ left: 40px;
+ top: 2px;
+ height: 24px;
+}
+
+#flags
+{
+ position: relative;
+ float:left;
+ width: 100px;
+ left: 200px;
+ top: 2px;
+ height: 24px;
+}
+
+
+/* ************************************************************ */
+
+#sports
+{
+ position: relative;
+ float:left;
+ background: url('loginpics/sports.jpg');
+ width: 1000px;
+ height: 240px;
+ font: bolder 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+}
+
+#sporttxt1
+{
+ position:relative; 
+ float: left;
+ left:35px; 
+ top:202px;
+ /*width:180px;*/
+ /*background: black;*/
+ font: bolder 22px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: left;
+}
+
+#sporttxt2
+{
+ position:relative; 
+ float: left;
+ left:30px; 
+ top:202px;
+ width:600px;
+ /*background: black;*/
+ font: 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: left;
+}
+
+/* ************************************************************ */
+#content
+{
+position: relative;
+float:left;
+background: #161616;
+width: 1000px;
+height: 420px;
+}
+
+#contentleft
+{
+position: relative;
+float:left;
+width: 615px;
+height: 420px;
+}
+
+#casino
+{
+ position: relative;
+ float:left;
+ background: url('loginpics/casino.jpg');
+ width: 615px;
+ height: 195px;
+}
+
+#casinotxt1
+{
+ position: relative; 
+ float: left;
+ left: 35px; 
+ top: 155px;
+ /*width: 120px;*/
+ font: bolder 22px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: right;
+}
+
+#casinotxt2
+{
+ position: relative; 
+ float: left;
+ left:30px; 
+ top: 155px;
+ width: 350px;
+ font: 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: left;
+}
+
+#livebet
+{
+position: relative;
+float:left;
+background: url('loginpics/live.jpg');
+width: 615px;
+height: 225px;
+}
+
+#livetxt1
+{
+ position:relative; 
+ float: left;
+ left:35px; 
+ top:182px;
+ /*width:210px;*/
+ /*background: black;*/
+ font: bolder 22px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: right;
+}
+
+#livetxt2
+{
+ position: relative; 
+ float: left;
+ left:30px; 
+ top: 182px;
+ width: 350px;
+ /*background: black;*/
+ font: 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: left;
+}
+
+#contentright
+{
+ position: relative;
+ float:right;
+ width: 385px;
+ height: 420px;
+}
+
+#barvideo
+{
+ position: relative;
+ float:right;
+ background: url('loginpics/bar.jpg');
+ width: 385px;
+ height: 30px;
+}
+
+#videoframe
+{
+ position: relative;
+ float:right;
+ background: black;
+ width: 385px;
+ height: 265px;
+}
+
+#video
+{
+ position: relative;
+ float:left;
+ background: black;
+ /*
+ width: 341px;
+ height: 265px;
+ */
+ left:6px;
+}
+
+#viking
+{
+position: relative;
+float:right;
+background: url('loginpics/keno.jpg');
+width: 385px;
+height: 125px;
+}
+
+#vikingtxt1
+{
+ position:relative; 
+ float: left;
+ left:10px; 
+ top:85px;
+ /*width:130x;*/
+ /*background: black;*/
+ font: bolder 22px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: right;
+}
+
+#vikingtxt2
+{
+ position: relative; 
+ float: left;
+ left:10px; 
+ top: 85px;
+ width: 210px;
+ /*background: black;*/
+ font: 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: left;
+}
+/* ************************************************************ */
+
+#footer  
+{
+ position: relative;
+ float:left;
+ background: url('loginpics/footer.jpg');
+ width: 1000px;
+ height: 148px;
+ font: bolder 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+}
+
+#footertext
+{
+ position: relative;
+ float:left;
+ width: 1000px;
+ height: 24px;
+ font: bolder 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+ top: 75px;
+}
+
+
+/* ************************************************************ */
+/* ************************************************************ */
+
+#wrap2
+{
+position: relative;
+width: 1000px;
+margin: 0 auto;
+height: 800px;
+
+border-style: solid;
+border-width : 1px;
+border-color: black;
+background: black;
+}
+
+#rules
+{
+ position: relative;
+ float:left;
+ background: black;
+ width: 936px;
+ left: 32px;
+ height: 650px;
+ font: 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: justify;
+}
+
+#footertext2
+{
+ position: relative;
+ float:left;
+ width: 1000px;
+ height: 24px;
+ font: bolder 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+ top: 0px;
+ margin-top:10px;
+}
+
+
+/* ************************************************************ */
+/* ************************************************************ */
+
+#wrap3
+{
+/*position: relative;*/
+width: 1000px;
+margin: 0 auto;
+/*height: 6330px;*/
+
+border-style: solid;
+border-width : 1px;
+border-color: black;
+background: black;
+}
+
+#wrap3a
+{
+position: relative;
+width: 700px;
+margin: 0 auto;
+
+border-style: solid;
+border-width : 1px;
+border-color: black;
+background: black;
+}
+
+#rules2
+{
+ position: relative;
+ float:left;
+ background: black;
+ width: 936px;
+ left: 32px;
+ /*height: auto;*/
+ font: 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: justify;
+}
+
+/* ************************************************************ */
+/* ************************************************************ */
+
+#loginerror
+{
+ position: relative;
+ float:left;
+ background: url('loginpics/error.jpg');
+ width: 600px;
+ top : 130px;
+ left: 170px;
+ height: 220px;
+}
+
+/* ************************************************************ */
+/* ************************************************************ */
+
+#regtable
+{
+ position: relative;
+ float:left;
+ background: black;
+ width:700px;
+ top : 30px;
+ left: 118px;
+ height: 550px;
+
+}
+
+
+/* ************************************************************ */
+/* ************************************************************ */
+
+#contact
+{
+ position: relative;
+ float:left;
+ background: black;
+ width:500px;
+ top : 30px;
+ left: 218px;
+ height: 550px;
+ color :white;
+}
+
+#leftcontact
+{
+ position: relative;
+ float:left;
+ background: url('loginpics/left_contact.jpg');
+ width: 300px;
+ height: 250px;
+ left : 0px;
+ top: 0px;
+}
+
+#rightcontact
+{
+ position: relative;
+ float:right;
+ background: url('loginpics/right_contact.jpg');
+ width: 300px;
+ height: 250px;
+ right:0px;
+ top: 0px;
+}
+
+
+/* ************************************************************ */
+/* ************************************************************ */
+
+#leftresult
+{
+ position: relative;
+ float:left;
+ background: black;
+ width: 300px;
+ height: 550px;
+ left : 0px;
+ top: 30px;
+}
+
+#leftpic
+{
+ position: relative;
+ float:left;
+ background: url('loginpics/left.jpg');
+ width: 300px;
+ height: 250px;
+ left : 0px;
+ top: 0px;
+}
+
+#resultstable
+{
+ position: relative;
+ float:left;
+ background: black;
+ width:300px;
+ top : 30px;
+ left: 15px;
+ height: 550px;
+ font: 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: right;
+}
+
+#rightresult
+{
+ position: relative;
+ float:right;
+ background: black;
+ width: 300px;
+ height: 550px;
+ top :30px;
+ right:5px;
+}
+
+
+#rightpic
+{
+ position: relative;
+ float:right;
+ background: url('loginpics/right.jpg');
+ width: 300px;
+ height: 250px;
+ right:0px;
+ top: 0px;
+}
+
+
+/* ************************************************************ */
+/* ************************************************************ */
+
+#wrap4
+{
+ position: relative;
+ width: 1000px;
+ margin: 0 auto;
+ border-style: solid;
+ border-width : 1px;
+ border-color: black;
+ background: black;
+}
+
+
+#rules4
+{
+ position: relative;
+ float:left;
+ background: black;
+ border : 1px solid black; 
+ width: 1000px;
+ /*height: auto;*/
+ left: 0px;
+ top: 0px;
+ font: 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: justify;
+}
+
+
+#resultstable3
+{
+ position: relative;
+ float:left;
+ height : inherit;
+ width:230px;
+ top : 30px;
+ left: 32px;
+ font: 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align:left;
+}
+
+#resultstable4
+{
+ position: relative;
+/* 
+ float:right;
+ right :120px;
+*/
+ height : inherit;
+ float:left;
+ left : 20px; 
+ background: black;
+ width:600px;
+ top : 0px;
+ font: 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+}
+
+#rules5
+{
+ position: relative;
+ float:left;
+ background: black;
+ border : 1px solid black; 
+ width: 600px;
+ /*height: auto;*/
+ left: 0px;
+ top: 0px;
+ font: 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: justify;
+}
+
+#wrap5
+{
+ position: relative;
+ width: 600px;
+ margin: 0 auto;
+ border-style: solid;
+ border-width : 1px;
+ border-color: black;
+ background: black;
+}
+
+#contact5
+{
+ position: relative;
+ float:left;
+ background: black;
+ width:500px;
+ top : 30px;
+ left: 50px;
+ height: 550px;
+ color :white;
+}
+
+#resultstable5
+{
+ position: relative;
+ float:left;
+ background: black;
+ width:500px;
+ top : 30px;
+ left: 50px;
+ height: 550px;
+ font: 12px  'Tahoma', Arial, sans-serif;
+ color : white;
+ text-align: right;
+}
+
+td.column10	        {BACKGROUND-COLOR: #FFFFFF; text-align: center}
+td.deltgrright	{BACKGROUND-COLOR: #FFFFFF; text-align: right; font: 12px Tahoma, Arial; COLOR: #000000; }
+td.deltgrleft	{BACKGROUND-COLOR: #FFFFFF; text-align: left; font: 12px Tahoma, Arial; COLOR: #000000; }
+td.deltgrcenter	{BACKGROUND-COLOR: #FFFFFF; text-align: center; font: 12px Tahoma, Arial; COLOR: #000000; }
+td.deltgr2center {BACKGROUND-COLOR: #FFFFFF; text-align: center; font: 12px Tahoma, Arial; COLOR: #000000; }
+table.mytable10     {border-collapse:collapse; margin:0; padding:0; border:0; margin-bottom:3;}
+table.mytable10 td {font-size:11px; font-family:Arial; border:1px solid #000000; padding:2 0 2 0; }
+table.mytable10 td img {border:0}
+td.deltorcenter	{BACKGROUND-COLOR: #FFFFFF; text-align: center; font-family:Arial; COLOR: #000000; FONT-WEIGHT: bold;}
+td.deldb1	{BACKGROUND-COLOR: #FFFFFF; text-align: center; font-family:Arial; COLOR: #000000; }
+td.deldb2	{BACKGROUND-COLOR: #FFFFFF; text-align: center;}
+
+
+
+table.list	{border-collapse:collapse; margin:0; padding:0; border:0; margin-bottom:3}
+table.list	td {font-size:11px; font-family:Arial; border:1px solid #000000; padding:2 0 2 0; }
+table.list 	td img {border:0}
+
+td.gr4c		     {BACKGROUND-COLOR: #FFFFFF; text-align: center; COLOR: #000000; FONT-WEIGHT: bold;}
+td.gr1c		     {BACKGROUND-COLOR: #FFFFFF; text-align: center; COLOR: #000000;}
+td.gr3c		     {BACKGROUND-COLOR: #FFFFFF; text-align: center; COLOR: #000000;}
+td.yec		     {BACKGROUND-COLOR: #FFFFFF; text-align: center; COLOR: #000000;}
+td.chance	     {BACKGROUND-COLOR: #FFFFFF; text-align: center; COLOR: #000000;}
+td.pointBLACK    {BACKGROUND-COLOR: #FFFFFF; text-align: center; color: #000000; font-weight: bold;}
+td.pointRED	     {BACKGROUND-COLOR: #FFFFFF; text-align: center; color: #000000; font-weight: bold;}
+td.teams		     {BACKGROUND-COLOR: #FFFFFF; text-align: center; COLOR: #000000; font-weight: bold; }
+td.teams2             {BACKGROUND-COLOR: #FFFFFF; text-align: center; color: #000000;}
+
+td.gametype1	     {BACKGROUND-COLOR: #FFFFFF; text-align: center; color: #000000;}
+td.gametype2	     {BACKGROUND-COLOR: #FFFFFF; text-align: center; color: #000000;}
+td.gametype3	     {BACKGROUND-COLOR: #FFFFFF; text-align: center; color: #000000;}
+td.gametype4	     {BACKGROUND-COLOR: #FFFFFF; text-align: center; color: #000000;}
+td.gametype5	     {BACKGROUND-COLOR: #FFFFFF; text-align: center; color: #000000;}
+
+td.gametype1a     {BACKGROUND-COLOR: #FFFFFF; text-align: center; color: #000000;}
+td.gametype2a     {BACKGROUND-COLOR: #FFFFFF; text-align: center; color: #000000;}
+td.gametype3a     {BACKGROUND-COLOR: #FFFFFF; text-align: center; color: #000000;}
+td.gametype4a     {BACKGROUND-COLOR: #FFFFFF; text-align: center; color: #000000;}
+td.gametype5a     {BACKGROUND-COLOR: #FFFFFF; text-align: center; color: #000000;}
+
+td.maintype  {BACKGROUND-COLOR: #FFFFFF; text-align: center; COLOR: #000000; FONT-WEIGHT: bold}
+td.maincateg{BACKGROUND-COLOR: #FFFFFF; text-align: center; COLOR: #000000; FONT-WEIGHT: bold}
+
+
+td.tt1cBLACK	     {BACKGROUND-COLOR: #FFFFFF; text-align: center; color: #000000; }
+td.tt1cRED	     {BACKGROUND-COLOR: #FFFFFF; text-align: center; color: #000000; }
+td.dd2cBLACK     {BACKGROUND-COLOR: #FFFFFF; text-align: center; color:#000000;}
+td.dd2cRED	    {BACKGROUND-COLOR: #FFFFFF; text-align: center; color:#000000;}
+td.tt1c		    {BACKGROUND-COLOR: #FFFFFF; text-align: center; FONT-WEIGHT: bold;}
+td.dd1c		    {BACKGROUND-COLOR: #FFFFFF; text-align: center; color: #000000;  FONT-WEIGHT: bold;}
+
+}

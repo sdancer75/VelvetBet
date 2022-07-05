@@ -1,0 +1,371 @@
+A:link
+{
+    TEXT-DECORATION: none
+}
+A:visited
+{
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    TEXT-DECORATION: underline
+}
+A:active
+{
+    TEXT-DECORATION: none
+}
+BODY
+{
+
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #282828;
+    height:100%
+
+}
+
+
+TH
+{
+
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #282828;
+
+
+}
+TD
+{
+
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+
+}
+BODY
+{
+    MARGIN: 0px
+
+}
+FORM
+{
+    MARGIN: 0px
+}
+.shadebottom
+{
+    BACKGROUND-IMAGE: url(grafix/shadebottom.gif);
+    BACKGROUND-REPEAT: repeat-x
+}
+.shaderight
+{
+    BACKGROUND-IMAGE: url(grafix/shaderight.gif);
+    BACKGROUND-REPEAT: repeat-y
+}
+.shadecorner
+{
+    BACKGROUND-IMAGE: url(grafix/shadecorner.gif);
+    BACKGROUND-REPEAT: no-repeat
+}
+.footerback
+{
+    BACKGROUND-IMAGE: url(grafix/footerback.gif);
+    BACKGROUND-REPEAT: repeat-x;
+    TEXT-ALIGN: right;
+    COLOR : White;
+}
+.logoback
+{
+    BACKGROUND-IMAGE: url(grafix/logo_back.gif);
+    BACKGROUND-REPEAT: repeat-x;
+    TEXT-ALIGN: left
+}
+.containertd
+{
+    PADDING-BOTTOM: 7px;
+    PADDING-TOP: 7px;
+    BACKGROUND-COLOR: #1f1f1f;
+    TEXT-ALIGN: center;
+    FONT: ARIAL 10px;
+
+}
+
+.tabletext
+{
+    FONT-SIZE: 11px;
+    BACKGROUND-COLOR: #EEEDB7;
+    TEXT-ALIGN: center;
+    COLOR: #000000;
+    PADDING-RIGHT: 15px;
+    font-weight: bold;
+    BORDER-RIGHT: #666666 1px solid;
+    BORDER-TOP: #666666 1px solid;
+    BORDER-LEFT: #666666 1px solid;
+    BORDER-BOTTOM: #666666 1px solid;
+}
+
+.tableinputtext
+{
+    FONT-SIZE: 11px;
+    BORDER-RIGHT: #666666 1px solid;
+    BORDER-TOP: #666666 1px solid;
+    BORDER-LEFT: #666666 1px solid;
+    BORDER-BOTTOM: #666666 1px solid;
+    Width:100px;
+    COLOR: #ffc92b;
+    BACKGROUND-COLOR: #000000;
+    TEXT-ALIGN: Center;
+}
+
+.tableinputtext2
+{
+    FONT-SIZE: 11px;
+    BORDER-RIGHT: #666666 1px solid;
+    BORDER-TOP: #666666 1px solid;
+    BORDER-LEFT: #666666 1px solid;
+    BORDER-BOTTOM: #666666 1px solid;
+    COLOR: #ffc92b;
+    BACKGROUND-COLOR: #000000;
+    TEXT-ALIGN: Left;
+}
+
+.TextInfo
+{
+    FONT-SIZE: 11px;
+    COLOR: WHITE;
+    TEXT-ALIGN: Left;
+
+}
+.TextInfoBlack2
+{
+
+   FONT-SIZE: 14px;
+   font-weight: bold;
+
+}
+
+
+.DropDownMenu
+{
+    BORDER-RIGHT: #666666 1px solid;
+    BORDER-TOP: #666666 1px solid;
+    BORDER-LEFT: #666666 1px solid;
+    BORDER-BOTTOM: #666666 1px solid;
+    FONT-WEIGHT: 500;
+    FONT-SIZE: 11px;
+    TEXT-DECORATION: none;
+    BACKGROUND-COLOR: #000000;
+    COLOR: #ffc92b;
+
+}
+
+
+.FormTable
+{
+    FONT-SIZE: 10px;
+    BACKGROUND-COLOR: BLACK;
+    BORDER-RIGHT: #666666 1px solid;
+    BORDER-TOP: #666666 1px solid;
+    BORDER-LEFT: #666666 1px solid;
+    BORDER-BOTTOM: #666666 1px solid;
+}
+
+.InputText
+{
+    FONT-SIZE: 10px;
+    BORDER-RIGHT: #666666 1px solid;
+    BORDER-TOP: #666666 1px solid;
+    BORDER-LEFT: #666666 1px solid;
+    BORDER-BOTTOM: #666666 1px solid;
+    WIDTH: 180px;
+    COLOR: #ffc92b;
+    BACKGROUND-COLOR: #000000;
+    TEXT-ALIGN: center
+}
+.HeaderTD
+{
+   FONT-SIZE: 10px;
+    FONT-WEIGHT: bold;
+    PADDING-BOTTOM: 3px;
+    COLOR: #ffcc00;
+    PADDING-TOP: 3px;
+    BACKGROUND-COLOR: #000000;
+    TEXT-ALIGN: center;
+
+}
+
+.HeaderOptions
+{
+    FONT-SIZE: 10px;
+    FONT-WEIGHT: bold;
+    PADDING-BOTTOM: 5px;
+    COLOR: #FFFFFF;
+    PADDING-TOP: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 11px;
+
+}
+
+a.HeaderOptions:hover {
+  color:  #ffcc00;
+}
+
+
+.InfoTitle
+{
+    FONT-SIZE: 10px;
+    FONT-WEIGHT: bold;
+    PADDING-BOTTOM: 5px;
+    COLOR: #FF9900;
+    PADDING-TOP: 5px;
+    TEXT-ALIGN: Left;
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+.Title
+{
+    FONT-SIZE: 11px;
+    FONT-WEIGHT: bold;
+    PADDING-BOTTOM: 5px;
+    COLOR: white;
+    PADDING-TOP: 5px;
+    TEXT-ALIGN: center;
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+.Title2
+{
+    FONT-SIZE: 13;
+    FONT-WEIGHT: bold;
+    PADDING-BOTTOM: 5px;
+    COLOR: Black;
+    PADDING-TOP: 5px;
+    TEXT-ALIGN: left;
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+.SimpleText
+{
+    FONT-SIZE: 10;
+
+    PADDING-BOTTOM: 5px;
+    COLOR: white;
+    PADDING-TOP: 5px;
+    TEXT-ALIGN: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: justify;
+}
+
+
+.Data1
+{
+    FONT-SIZE: 10px;
+    FONT-WEIGHT: normal;
+    PADDING-BOTTOM: 5px;
+    COLOR: #FFFFFF;
+    PADDING-TOP: 5px;
+    TEXT-ALIGN: center;
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+.DummyPrint
+{
+
+}
+.Header1
+{
+    FONT-SIZE: 10px;
+    FONT-WEIGHT: normal;
+    PADDING-BOTTOM: 5px;
+    COLOR: black;
+    PADDING-TOP: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 11px;
+
+}
+.Coupon {
+  color:#FFEC00;
+  FONT-WEIGHT: bold;
+}
+
+
+.InfoInformation
+{
+    FONT-SIZE: 10px;
+    FONT-WEIGHT: bold;
+    COLOR: #ffffff;
+    TEXT-ALIGN: Left;
+    padding-left: 0px;
+    padding-right: 25px
+
+}
+
+.Padding3pxlogin
+{
+    FONT-SIZE: 10px;
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 3px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    color: white;
+    text-align: center;
+}
+
+.Padding3px
+{
+    FONT-SIZE: 10px;
+    PADDING-RIGHT: 1px;
+    PADDING-LEFT: 3px;
+    PADDING-BOTTOM: 3px;
+    PADDING-TOP: 3px;
+    color: white;
+    text-align: left;
+}
+
+a.Padding3px:link {
+  color: #FFFFFF
+}
+
+a.Padding3px:hover {
+  color: #FFCC33
+}
+
+
+
+
+
+.ButtonOrange
+{
+    FONT-SIZE: 11px;
+    BORDER-RIGHT: #333333 0px;
+    BORDER-TOP: 0px;
+    FONT-WEIGHT: bold;
+    BACKGROUND-IMAGE: url(grafix/buttonback.gif);
+    BORDER-LEFT: 0px;
+    WIDTH: 120px;
+    CURSOR: hand;
+    COLOR: #000000;
+    BORDER-BOTTOM: #333333 0px;
+    BACKGROUND-REPEAT: repeat-x;
+    HEIGHT: 25px
+}
+
+.SelectionButton
+{
+    FONT-SIZE: 11px;
+    BORDER-RIGHT: #333333 0px;
+    BORDER-TOP: 0px;
+    FONT-WEIGHT: bold;
+    BACKGROUND-IMAGE: url(grafix/buttonback.gif);
+    BORDER-LEFT: 0px;
+    WIDTH: 200px;
+    CURSOR: hand;
+    COLOR: #000000;
+    BORDER-BOTTOM: #333333 0px;
+    BACKGROUND-REPEAT: repeat-x;
+    HEIGHT: 25px
+}
+
+#fullheight {height:100%}

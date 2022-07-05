@@ -1,0 +1,52 @@
+div.contact_form form,
+div.contact_form table,
+div.contact_form td,
+div.contact_form th
+{
+  margin: 0px;
+  vertical-align: top;
+  text-align: left;
+  FONT-SIZE: 10px;
+  PADDING-RIGHT: 3px;
+  PADDING-LEFT: 3px;
+  PADDING-BOTTOM: 3px;
+  PADDING-TOP: 3px;
+  color: white;
+  text-align: center;
+}
+
+div.contact_form table { border-collapse: collapse; }
+div.contact_form th    { padding: 10px 10px 3px 0px; }
+div.contact_form td    { padding: 10px 10px 3px 0px; }
+
+div.contact_form img   { margin-left: 5px; }
+
+div.contact_form em
+{
+  text-decoration: none;
+  font-style:  normal;
+  font-weight: 900;
+  color:#99CC66;
+}
+
+div.contact_form  em.error, div.contact_form form em { color: #FF0F0F; }
+div.contact_form div.error { margin-bottom: 15px; }
+
+div.contact_form div.input { float:  left; }
+div.contact_form select    { width: 250px; }
+
+div.contact_form div.input input,
+div.contact_form div.input textarea
+{
+    FONT-SIZE: 10px;
+    BORDER-RIGHT: #666666 1px solid;
+    BORDER-TOP: #666666 1px solid;
+    BORDER-LEFT: #666666 1px solid;
+    BORDER-BOTTOM: #666666 1px solid;
+    WIDTH: 180px;
+    COLOR: #ffc92b;
+    BACKGROUND-COLOR: #000000;
+    TEXT-ALIGN: center
+}
+
+

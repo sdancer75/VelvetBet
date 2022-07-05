@@ -1,0 +1,14 @@
+div.contact_form
+{
+  font-family: Verdana, Sans-Serif;
+  font-weight: 900;
+  font-size:  11px;
+  color: #FFFFFF;
+}
+
+div.contact_form input,
+div.contact_form textarea
+{
+  font-family: Verdana, Sans-Serif;
+  font-size: 1.2em;
+}
